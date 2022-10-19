@@ -1,0 +1,68 @@
+#main-navbar {
+    background-color: #000;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#main-navbar ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: underline overline;
+    text-align: center;
+}
+
+#navbar-container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#main-navbar ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    right: 50%;
+}
+
+#main-navbar li {
+    padding: 10px 20px;
+    list-style-type: none;
+    position: relative;
+    float: left;
+}
+
+#main-navbar li:hover {
+    background-color: blue;
+}
+
+#onpage {
+    background-color: blue;
+}
+
+#sidebar {
+    background-color: red;
+    right: 0%;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+}
+
+#sidebar-container {
+    text-align: center;
+}
+
+#sidebar ul li {
+    padding: 15px 0;
+}
+
+#sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
