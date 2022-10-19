@@ -63,7 +63,13 @@
   text-decoration: none;
 }
 
+#sidebar li:hover {
+  background-color: #000;
+}
+
 #sidebar ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
